@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import DolphinCard from "./components/DolphinCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import dolphins from "./dolphins.json";
 import "./App.css";
 
