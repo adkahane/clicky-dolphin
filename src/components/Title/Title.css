@@ -1,0 +1,9 @@
+.title {
+  width: 100%;
+  text-align: left;
+  font-size: 3rem;
+  color: white;
+  background-color: blueviolet;
+  margin-bottom: 100px;
+  padding: 25px 0 25px 0;
+}
