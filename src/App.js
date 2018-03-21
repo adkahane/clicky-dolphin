@@ -30,10 +30,10 @@ class App extends Component {
       <div>
       <nav class="row navbar fixed-top navbar-dark bg-primary py-3">
           <div class="col-4 nav-item">
-            <a class="nav-link" href="/"><h1>Clicky Dolphin</h1></a>
+            <a class="nav-link" href="/clicky-dolphin"><h1>Clicky Dolphin</h1></a>
           </div>
           <div class="col-4 nav-item">
-            <h1>{this.state.message}</h1>
+            <h2>{this.state.message}</h2>
           </div>
       </nav>
       <div class="row justify-content-center">
