@@ -1,7 +1,7 @@
 import React from "react";
-import "./FriendCard.css";
+import "./DolphinCard.css";
 
-const FriendCard = props => (
+const DolphinCard = props => (
   <div className="images">
     <div className="img-container">
       <img alt={props.name} src={props.image} />
@@ -9,4 +9,4 @@ const FriendCard = props => (
   </div>
 );
 
-export default FriendCard;
+export default DolphinCard;
