@@ -9,4 +9,4 @@ If you are like me, you LOVE clicking on dolphins.  Well, look no further becaus
   * Click on some gosh-darn dolphins!
   * Get high scores!
 
-![image showing heroku deployment](public/assets/readmegif.gif)
+![gif of deployed site](public/assets/readmegif.gif)
