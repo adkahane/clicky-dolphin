@@ -12,6 +12,10 @@
   margin-top: 100px;
 }
 
-h1 {
+h5, h4 {
   color: white;
+}
+
+h4 {
+  font-weight: bold;
 }
