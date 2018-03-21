@@ -16,8 +16,8 @@ class App extends Component {
   };
 
   setSelected = id => {
-    // Filter this.state.dolphins for dolphins with an id not equal to the id being removed
-    const dolphins = this.state.dolphins.filter(dolphin => dolphin.id !== id);
+    // Filter this.state.dolphins for the clicked dolphin
+    const dolphins = this.state.dolphins.filter(dolphin => dolphin.id === id);
     // Set this.state.dolphins equal to the new dolphins array
     this.setState({ dolphins });
   };
@@ -33,7 +33,7 @@ class App extends Component {
             <a class="nav-link" href="/"><h1>Clicky Dolphin</h1></a>
           </div>
           <div class="col-4 nav-item">
-            {this.state.message}
+            <h1>{this.state.message}</h1>
           </div>
       </nav>
       <div class="row justify-content-center">
