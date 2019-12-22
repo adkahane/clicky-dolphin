@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://adkahane.github.io/clicky-dolphin/",
   "dependencies": {
-    "react": "^16.2.0",
     "gh-pages": "^1.1.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.12.0",
     "react-scripts": "1.1.1"
   },
   "scripts": {
